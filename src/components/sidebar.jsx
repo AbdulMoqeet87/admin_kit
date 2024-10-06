@@ -1,7 +1,7 @@
 import PageOption from "./Page_options";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-function Navbar() {
+function Sidebar() {
 	return (
 	<div className="wrapper">
 	  <nav id="sidebar" className="sidebar js-sidebar">
@@ -59,5 +59,5 @@ function Navbar() {
 	);
   }
   
-  export default Navbar;
+  export default Sidebar;
   

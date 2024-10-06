@@ -1,11 +1,17 @@
 
+import Sidebar from './components/sidebar'
+import Navbar from './components/nav'
+
 import './App.css'
-import Navbar from './components/Navbar'
-function App() {
-  
+function App() {  
 
   return (   
-      <Navbar/>    
+   
+    <div className='wrapper'>
+      <Sidebar/> 
+      <Navbar/>         
+      </div>
+   
   )
 }
 
